@@ -36,6 +36,6 @@ gulp.task "dist", ->
 
 gulp.task "downloadAtomShell", ->
   downloadOptions =
-    version: "0.18.0"
+    version: "0.19.0"
     outputDir: "atom-shell"
   $.downloadAtomShell(downloadOptions)
